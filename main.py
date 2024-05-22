@@ -22,7 +22,7 @@
 # Data.clear()
 # new_data = frozenset([7, 5, 2, 9, 'nurmuhammad'])
 # print(new_data)
-# print(data)
+# print(Data)
 
 
 # dict
@@ -386,7 +386,7 @@
 # for x in range(101, 1, -1):
 #     print(x)
 
-# for x in range(1, 100):
+# for x in range(1, 10):
 #     if x % 2 == 0:
 #         print(x)
 
@@ -521,7 +521,7 @@
 #     if x == 1000:
 #         break
 #     print(y)
-
+#
 # for x in range(1, 20):
 #     print(x)
 
@@ -686,256 +686,393 @@
 # my_string = "Это строка для удаления"
 # my_string = None  # Присвоение переменной значения None
 
+# for x in range(1, 10):
+#     if x % 2 == 0:
+#         print(x)
+
+# i = 1
+# while i < 6:
+#   print(i)
+#   i += 1
+
+
+# x = 0
+# while x < 10:
+#     x = x + 1
+#     if x == 11:
+#         break
+#     print(x)
+
+# for x in range(1, 10):
+#     if x % 2 == 0:
+#         print(x)
+
+# for x in range(1, 10):
+#     if x % 2 == 1:
+#         print(x)
+
+# num = 1
+# while num < 10:
+#     num = num + 2
+#     print(num)
+
+# a = {1, 2, 3, 4, 5, 6, 12, 24}
+# a.remove(12)
+# print(a)
+
+# a = {1, 2, 3, 4, 5, 6, 12, 24}
+# a.remove(3)
+# a.remove(5)
+# a.remove(6)
+# a.remove(12)
+# a.remove(24)
+# a.add('apple')
+# a.add('john')
+# a.add('cs')
+# a.add('mango')
+# a.add('grapes')
+# print(a)
+
+# a = {96, 65, 2, 'joseph'}
+# b = {1, 'peter', 59}
+# a.update(b)
+# print(a)
 
 
+# def dobavit():
+#     a = {'Rassiya', 'Uzbekistan', 'Kitay'}
+#     x = input('dayte stranu')
+#     a.add(x)
+#     print(a)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# def remov():
+#     a = {'Rassiya', 'Uzbekistan', 'Kitay'}
+#     x = input('udalite stranu')
+#     a.remove(x)
+#     print(a)
+
+
+# def over():
+#     f = int(input("0 mi yoki 1"))
+#     if f == 1:
+#         dobavit()
+#     elif f == 0:
+#         remov()
+# over()            
+
+# def text_man():
+#     print('this is man')
+
+# def text_woman():
+#     print('this is woman')
+
+# def result():
+#     a = int(input('choose one number 1 => man , 2 => woman'))
+#     if a == 1:
+#         text_man()
+#     if a == 2:
+#         text_woman()
+# result()
+
+# def text_number():
+#     print(range(0, 11))
+
+# def text_alphabet():
+#     print('a, b, c, d, e')
+
+# def result():
+#     a = int(input('viberity metod obsheniya 1 = > number , 2 => alphabet'))
+#     if a == 1:
+#         text_number()
+#     if a == 2:
+#         text_alphabet()    
+# result()
+
+
+
+
+# class Myacademy:
+#     man = 10
+#     a = input('pointer')
+#     def name (self):
+#         print('my name is david')
+# p = Myacademy()                 
+# print(p.man)
+# print(p.a)
+# p.name()
+
+# class Myacedemy:
+#     man = 10
+
+#     def __init__(self,type,age,lang):
+#         self.type = type
+#         self.age = age
+#         self.lang = lang
+
+#     def __str__(self):
+#         return f"{self.type}({self.age})({self.lang})"
+
+#     # def name(self):
+#     #     print('My name is David')
+
+# p = Myacedemy('man',35,'uz')
+# c = Myacedemy('women',25,'ru')
+# print(p)
+# print(c)
+
+# class Behruz:
+
+#     def __init__(self, name , country, data_of_birth):
+#         self.name = name
+#         self.country = country
+#         self.data_of_birth = data_of_birth
+
+# b = Behruz('bexruz', 'tashkent', '14')
+
+# print("his name is", b.name, "hi was born", b. data_of_birth, "he is from", b.country)
+
+
+
+
+# from datetime import date
+
+# class BexruzFamily:
+
+#     def __init__(self,name,country,data_of_birth):
+#         self.name = name
+#         self.country = country
+#         self.data_of_birth = data_of_birth
+
+#     # def bexruz(self):
+#     #     self.name = 'Bexruz'
+#     #     self.country = "Tashkent"
+#     #     self.data_of_birth = 14
+#     #     return f"His name is,{self.name},He was born in "
+#     #     {self.country}
+#     #     "He is ", {self.data_of_birth}, " years old"
+#     #
+#     # def pet(self):
+#     #     self.name = 'Chixaxu'
+#     #     self.country = "Tashkent"
+#     #     self.data_of_birth = 1
+#     #     return f"His pets name is,{self.name},it was born in "
+#     #     {self.country}
+#     #     "it is ", {self.data_of_birth}, " years old"
+#     # def __init__(self,name,country,data_of_birth):
+#     #     self.name = name
+#     #     self.country = country
+#     #     self.data_of_birth = data_of_birth
+
+# b = BexruzFamily('Bexruz','Tashkent',14)
+# a = BexruzFamily('Chixaxu','Tashkent',1)
+# # b = BexruzFamily('')
+# # print(b.bexruz())
+# # print(b.pet())
+# print("His name is ", b.name,
+#       "He was born in ", b.country,
+#       "He is ",b.data_of_birth," years old")
+
+# print("His name is ", a.name,
+#       "He was born in ", a.country,
+#       "He is ",a.data_of_birth," years old")
+
+# from datetime import date
+# class  person:
+#     def __init__(self, name, country, data_of_birth, age):
+#         self.name = name
+#         self.country = country
+#         self.data_of_birth = data_of_birth
+#         self.age = age
+# a = person('Ferdi Odilia', 'france', 1962-7-12, 60)
+# b = person('shweta maddox', 'canada', 1982-10-20, 40)
+# c = person('elizaveta timan', 'usa', 2000-1-1, 23)
+# print("His name is ", a.name,
+#        "He was born in ", a.country,
+#       "He is ",a.data_of_birth," years old")
+# print("His name is ", b.name,
+#        "He was born in ", b.country,
+#        "He is ",b.data_of_birth," years old")
+# print("His name is ", c.name,
+#        "He was born in ", c.country,
+#       "He is ",c.data_of_birth," years old")
+
+
+
+# a = 0 
+# b = int(input("give me a number"))
+# if a < b:
+#        print(1)
+# elif a > b:
+#        print(-1)
+# elif a == b:
+#        print(0)
+# else:
+#        print('nenenen')
+
+# print('scolko budet 1 + 1')
+# while True:
+#        a = int(input('give me a number'))
+#        if a == 2:
+#               print('true')
+#               break
+#        elif a < 2:
+#               print('notori')
+#        elif a > 2:
+#               print('false')
+#        else:
+#               print('povtorite zanovo')
+
+# a = range(0, 10)
+# for x in a:
+#     if x == 6:
+#         break
+    
+#     print(x)
+# print('yettim 6') 
+
+# print('dayte login i parol')
+# while True:
+#     a = str(input('login'))
+#     b = str(input('dayte parol'))
+#     if a == 'qwerty' and b == 'qwerty':
+#         print('true')
+#         break
+#     elif a != 'qwerty' and b != 'qwerty':
+#         print('its false')
+#         break
+# else:
+#     print('zanovo')
+
+
+# print("dayte chislo")
+# while True:
+#     a =input('chislo')
+#     if a % 2 == 0 :
+       
+#        print('chislo chotno')
+#     if a % 2 == 1 : a < b >
+#        print('chislo nechetno')  
+# else:
+#     print('zanovo')
+
+# number = 8757
+# a = list(str(number))
+# print(a[0])
+
+# print('chetiroxznachoe chislo')
+# while True:
+#     a = int(input('dayte chislo'))
+#     if 999 < a  and a < 10000:
+
+#        a = list(str(a))
+#        if a[0] == a[1] or a[0] == a[2] :
+#            print(True)
+#            break
+#        elif a[3] == a[1] or a[3] == a[2]:
+#            print('true')
+#            break
+# else :
+#     print('zanova')
+
+# print('scolco let')
+# while True:
+#     a = int(input('let:'))
+#     if a < 16:
+#         print('dostup zapreshen')
+#     elif a > 16:
+#         print('dostup otkrit')    
+#         break
+# else:
+#     print('zanovo')
+
+# print('zadayte chislo')
+# while True:
+#     a = int(input('1 chislo'))
+#     b = int(input('2 chislo'))
+#     c = int(input('3 chislo'))
+#     if a - b == b - c:
+#         print('true')
+#         break
+#     elif a - b != b - c:
+#         print('false') 
+# else:
+#     print('zanovo')           
+
+# class familybexruz:
+#     @staticmethod
+#     def is_age(age):
+#         age = 15
+#         if age > 18:
+#             print("True")
+#         else:
+#             print("False")
+
+# def spalniy(self, b):
+#     self.b = b
+#     print("this is simple method", self.b)    
+
+# class familysalima(familybexruz): 
+#     pass
+
+
+# a = familysalima()
+# a.spalniy(20)
+# a.is_age(20)
+
+
+# class vihecle:
+#     def __init__(self, name, mile, capacity ):
+#        self.name = name
+#        self.mile = mile
+#        self.capacity = capacity
+
+#     def fare(self):
+#         return self.capacity * 100     
+# class bus(vihecle):
+#     pass
+# b =bus('daughter', 10, 50 )
+# print('stoimost avtobusa', b.fare())
+
+class A:
+    def pay_for_cal(dollar):
+        if 
+    def slesh(self, a, b):
+        return a + b + 2
+    def prosent(self, a, b):
+        return a + b - 2 
+    def add(self, a, b):
+        return a + b 
+    def minus(self, a, b):
+        return a - b
+    def mult(self, a, b):
+        return a * b 
+    def div(self, a, b):
+        return a / b 
+    
+cal = A()
+def input_ask():
+    x = int(input('1 chislo'))
+    y = int(input('2 cjislo'))
+    return x, y 
+
+symbol = input("viberite (+  -  *  /  %  !)")
+
+if symbol in ['+', '-', '*', '/', '!', '%']:
+    num1, num2 = input_ask()
+
+    if symbol == '+':
+        print('resultat:', cal.add(num1, num2))
+    if symbol == '-':
+        print('resultat:', cal.minus(num1, num2))
+    if symbol == '*':
+        print('resultat:', cal.mult(num1, num2))
+    if symbol == '/':
+        print('resultat:', cal.div(num1, num2))
+    if symbol == '!':
+          print('resultat:', cal.slesh(num1, num2))  
+    if symbol == '%':
+          print('resultat:', cal.prosent(num1, num2))        
 
 
 
